@@ -17,6 +17,7 @@ def add(a: Number, b: Number) -> Number:
         The sum of a and b
     """
     # TODO: Implement this function
+    return a+b
     pass
 
 
@@ -32,6 +33,7 @@ def subtract(a: Number, b: Number) -> Number:
         The result of a - b
     """
     # TODO: Implement this function
+    return b-a
     pass
 
 
@@ -47,6 +49,7 @@ def multiply(a: Number, b: Number) -> Number:
         The product of a and b
     """
     # TODO: Implement this function
+    return a*b
     pass
 
 
@@ -65,4 +68,7 @@ def divide(a: Number, b: Number) -> Number:
         ValueError: If b is 0
     """
     # TODO: Implement this function
+    if b==0 :
+        raise ValueError
+    return a/b
     pass
