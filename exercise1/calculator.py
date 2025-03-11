@@ -33,7 +33,7 @@ def subtract(a: Number, b: Number) -> Number:
         The result of a - b
     """
     # TODO: Implement this function
-    return b-a
+    return a-b
     pass
 
 
